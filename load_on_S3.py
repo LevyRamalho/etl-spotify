@@ -73,5 +73,3 @@ folder_path = f'{os.getcwd()}\{folder_name}'
 s3_client = conn_S3()
 
 upload_files_onS3(s3_client, bucket_name, folder_path, folder_name)
-
-fd
